@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#run a java executable
+# classpath is current dir for classes, current dir for jars
+# main method to run
+# return all the arguments from the java class
+java -cp *:/* com.example.amq.main.Main $@
